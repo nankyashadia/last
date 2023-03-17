@@ -1,0 +1,155 @@
+body{
+    margin:0;
+    text-align: center;
+    font-family: "Merriweather", serif;
+}
+
+
+
+h2{
+    font-family: "Montserrat", sans-serif;
+    font-size:20px;
+    color: #66BFBF;
+    bottom: 20px;
+    position: absolute;
+    text-align: center;
+
+
+}
+
+
+.My-photo{
+
+
+    position: absolute;
+    flex-wrap: wrap;
+    justify-content: center;
+    right: 92px;
+    display: flex;
+    background-color:  rgb(68, 114, 196);
+    height: 150px;
+    width: 322px;
+    padding: 20px;
+    border: 0;
+    margin: 30px;
+    text-align: center;
+
+
+  /-- margin-right: 52px;/
+}
+.My-photo:hover{
+    background-color: rgb(186, 145, 237);
+}
+
+
+
+.My-bio{
+
+    position: absolute;
+    left: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgb(201, 201, 201);
+    height: 150px;
+    width: 322px;
+    padding: 20px;
+    border: 0;
+    margin: 30px;
+    margin-left: 122px;
+
+
+
+}
+.My-bio:hover{
+    background-color: rgb(112, 208, 223);
+}
+
+
+
+
+.My-Education-History{
+
+     /*display: flex; this puts text at bottom
+     justify-content: center;
+     align-items:last baseline;*/
+
+
+
+    /* margin: auto; */
+    position: absolute;
+    top: 63%;
+    left: 50%;
+    transform: translate(-50%,-60%);
+    background-color: rgb(132, 150, 176);
+    height: 199px;
+    width: 350px;
+    padding: 20px;
+    border: 0;
+    text-align: center;
+    bottom: 30;
+
+
+
+
+
+
+
+
+}
+.My-Education-History:hover{
+    background-color: rgb(26, 26, 25);
+}
+
+.Hobbies{
+
+
+    position: absolute;
+    left: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgb(142, 170, 219);
+    height: 325px;
+    width: 322px;
+    padding: 20px;
+    border: 0;
+    margin: 510px;
+    margin-left: 122px;
+    text-align: center;
+    bottom: -750px;
+
+
+
+}
+.Hobbies:hover{
+    background-color: rgb(243, 113, 208);
+}
+
+.Contact-me{
+
+    position: absolute;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    right: -388px;
+    display: flex;
+    background-color: rgb(247, 202, 172);
+    height: 325px;
+    width: 322px;
+    padding: 20px;
+    border:0;
+    margin: 510px;
+    text-align: center;
+
+    bottom: -750px;
+
+
+
+
+
+
+}
+.Contact-me:hover{
+    background-color: darkseagreen;
+}
